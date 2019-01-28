@@ -8,9 +8,7 @@ html {
   width: 1424px;
   height: 2000px;
   color: #444;
-  background-color: #BFC2DF;
   font-size: 1.2rem;
-  background-color: #f7fcfe;
   font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
@@ -55,14 +53,25 @@ html {
   color: #FFE600;
 }
 
-/***************************/
+.header .nav ul li a {
+  list-style: none;
+  text-decoration: none;
+  float: left;
+  font-size: 20px;
+  margin-left: 30px;
+  font-weight: 600;
+  font-size: 25px;
+  color: #FFE600;
+}
+
+/***********detail.html****************/
 .header .section {
   width: 1400px;
   height: 100px;
   position: absolute;
   top: 280px;
   bottom: 200px;
-  color: plum;
+  color: white;
   font-size: 80px;
   font-weight: 600;
   text-align: center;
@@ -72,16 +81,20 @@ html {
 /***************************************************************/
 .wrap .box {
   width: 100%;
-  height: 1260px;
+  height: 1280px;
+}
+
+.wrap .box-menu {
+  width: 100%;
+  height: 1280px;
 }
 
 
-
-/***************************************************************/
+/****************top.html***************************/
 .box .content-a {
   width: 1424px;
   height: 380px;
-  background-color: #EDD0E5;
+  background-color: #FFFFFF;
 }
 
 .content-a .image-box {
@@ -118,11 +131,11 @@ html {
   font-size: 20px;
 }
 
-/*********************************/
-.box .content {
+/*********detail.html************************/
+.box-detail .content {
   width: 1424px;
   height: 650px;
-  background-color: #DBA6CC;
+  background-color: #FFFFFF;
 }
 
 .content .contentbox {
@@ -158,16 +171,16 @@ html {
 }
 
 /****************menu.html*****************/
-.box .content-box {
+.box-menu .content-box {
   width: 1424px;
   height: 500px;
-  background-color: #EDD0E5;
+  background-color: #ffffff;
 }
 
 .content-box .img-box {
   width: 500px;
   height: 400px;
-  background-color: #C97FB4;
+  background-color: #E5D7EE;
   margin: 50px 60px;
   float: left;
   border-radius: 10px;
@@ -202,17 +215,71 @@ html {
   font-size: 20px;
 }
 
-/*************************************************************/
+/***********access.html**************************/
+.wrap .accessbox {
+  width: 1424px;
+  height: 1000px;
+}
+
+.aceessbox .contener {
+  width: 1424px;
+  height: 800px;
+}
+
+
+.contener .contener-box {
+  width: 1424px;
+  height: 500px;
+  border: 1px solid;
+  display: flex;
+
+}
+
+.contener-box .ggmap {
+  width: 800px;
+  height: 500px;
+}
+
+.ggmap iframe {
+  width: 800px;
+  height: 500px;
+}
+
+.contenerbox .contener-text {
+  width: 600px;
+  height: 500px;
+}
+
+.contener-text .text-detail {
+  width: 600px;
+  height: 80px;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 50px;
+}
+
+.contener-text .text-detail-box {
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+/************top.html*************************************************/
 .box .content-b {
   width: 1424px;
   height: 600px;
-  background-color: #BFC2DF;
+  background-color: #FFFFFF;
   margin-top: -35px;
 }
 
 .content-b .text {
-  width: 1424px;
+  width: 450px;
   height: 120px;
+  margin-left: 500px;
+  border-bottom: 5px solid #E5D7EE;
 }
 
 .content-b .text h2 {
@@ -262,11 +329,13 @@ html {
 
 /**********detail.html********************/
 .content-b .section {
-  width: 1424px;
+  width: 500px;
   height: 80px;
   font-size: 40px;
   text-align: center;
   padding-top: 30px;
+  margin-left: 500px;
+  border-bottom: 5px solid #E5D7EE;
 }
 
 .content-b .sentence {
@@ -278,17 +347,26 @@ html {
 
 /******************************/
 /***************menu.html**********************************/
+.box-menu .content-b {
+  width: 1424px;
+  height: 560px;
+  background-color: #ffffff;
+  margin-top: -45px;
+}
+
 .content-b .menubox {
   width: 1424px;
-  height: 600px;
+  height: 560px;
 }
 
 .menubox .text {
-  width: 1424px;
+  width: 500px;
   height: 80px;
   font-size: 50px;
   text-align: center;
   padding-top: 30px;
+  margin-left: 500px;
+  border-bottom: 5px solid #E5D7EE;
 }
 
 .menubox .sentence {
@@ -312,32 +390,64 @@ html {
   margin-top: -20px;
 }
 
-/********************************************************/
+/**************top.html***************************/
 
 .box .content-c {
   width: 1424px;
-  height: 380px;
-  background-color: #E6E5F7;
+  height: 400px;
+  background-color: #FFFFFF;
   margin-top: -30px;
 }
 
 .content-c .text {
-  width: 1424px;
-  height: 50px;
-  font-size: 30px;
-  padding-top: 10px;
+  width: 800px;
+  height: 70px;
+  font-size: 50px;
+  margin-top: -20px;
+  margin-left: 300px;
+  border-bottom: 5px solid #E5D7EE;
   text-align: center;
 }
 
 .content-c .text-detail {
   width: 1424px;
-  height: 130px;
+  height: 150px;
   font-size: 25px;
   text-align: center;
 }
 
 
-/***************************************************/
+/******menu.html*********************/
+.box-menu .content-c-box {
+  width: 1424px;
+  height: 300px;
+  background-color: #FFFFFF;
+}
+
+.content-c-box .text-boxs {
+  width: 1424px;
+  height: 250px;
+}
+
+.text-boxs .text {
+  width: 750px;
+  height: 100px;
+  font-size: 50px;
+  text-align: center;
+  margin-top: -30px;
+  border-bottom: 5px solid #E5D7EE;
+  margin-left: 350px;
+}
+
+.text-boxs .detail-text {
+  width: 1424px;
+  height: 80px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/*****************************/
+
 
 .wrap .footer {
   width: 1424px;
@@ -455,7 +565,16 @@ html {
     color: yellow;
   }
 
-  /***************************/
+  .header .nav ul li a {
+    list-style: none;
+    float: left;
+    font-size: 3.5vw;
+    margin-left: 30px;
+    font-weight: 600;
+    color: yellow;
+  }
+
+  /*******detail.html********************/
   .header .section {
     max-width: 768px;
     height: 500px;
@@ -610,7 +729,7 @@ html {
     text-align: center;
   }
 
-  /***************************************************/
+  /********************************/
 
   /***************************************************/
 
@@ -619,6 +738,7 @@ html {
     height: 130px;
     margin-top: -3px;
   }
+
 
   .footer .footer-box {
     width: 768px;
@@ -732,32 +852,45 @@ html {
     color: yellow;
   }
 
-  /***************************/
+  .header .nav ul li a {
+    list-style: none;
+    float: left;
+    font-size: 3.5vw;
+    margin-left: 10px;
+    font-weight: 600;
+    color: yellow;
+  }
+
+  /********detail.html*******************/
   .header .section {
     max-width: 375px;
-    height: 200px;
+    height: 20px;
     position: absolute;
     top: 100px;
     bottom: 100px;
-    color: hotpink;
+    color: white;
     font-size: 3.5vw;
     font-weight: 600;
     text-align: center;
   }
 
-  /***************************/
-
-  /*************************/
+  /*********top.html****************/
   .wrap .box {
     max-width: 100%;
     height: 730px;
   }
 
-  /***************************************************************/
+
+  .wrap .box-detail {
+    width: 375px;
+    height: 700px;
+  }
+
+  /****************top.html***********************************************/
   .box .content-a {
     width: 375px;
     height: 270px;
-    background-color: #DBA6CC;
+    background-color: #FFFFFF;
   }
 
   .content-a .image-box {
@@ -801,59 +934,60 @@ html {
     text-align: justify;
   }
 
-  /*******detail.html-content**************************/
-  .box .content {
+  /*******detail.html**************************/
+  .box-detail .content {
     width: 375px;
-    height: 250px;
-    background-color: #DBA6CC;
+    height: 100px;
+    background-color: #FFFFFF;
+    border: 1px solid;
   }
 
   .content .contentbox {
-    width: 230px;
-    height: 180px;
+    width: 250px;
+    height: 220px;
     float: left;
-    margin-left: 10px;
-    margin-top: 30px;
+    margin-left: 0px;
+    margin-top: 50px;
   }
 
   .contentbox .section {
-    width: 50px;
-    height: 180px;
+    width: 30px;
+    height: 220px;
     float: right;
+    writing-mode: vertical-rl;
+    font-size: 4.0vw;
+  }
+
+  .contentbox .sentence {
+    width: 120px;
+    height: 220px;
+    float: left;
     writing-mode: vertical-rl;
     font-size: 3.0vw;
   }
 
-  .contentbox .sentence {
-    width: 100px;
-    height: 180px;
-    float: left;
-    writing-mode: vertical-rl;
-    font-size: 2.5vw;
-    margin-left: 45px;
-  }
-
   .content .contentbox-img {
-    width: 30%;
+    width: 100px;
     height: auto;
     float: right;
-    margin-right: 20px;
-    margin-top: 30px;
+    margin-right: 0px;
+    margin-top: 50px;
   }
 
-  /*********************************/
 
-  /*******************************/
+  /**********top.html*********************/
   .box .content-b {
     width: 375px;
-    height: 300px;
-    background-color: #BFC2DF;
+    height: 270px;
+    background-color: #FFFFFF;
     margin-top: -20px;
   }
 
   .content-b .text {
-    width: 100%;
-    height: 60px;
+    width: 60%;
+    height: 40px;
+    margin-left: 80px;
+    border-bottom: 5px solid #E5D7EE;
   }
 
   .content-b .text h2 {
@@ -910,13 +1044,20 @@ html {
     margin-left: 0px;
   }
 
-  /******************************/
+  /*********detail.html***************/
+  .box-detail content-b {
+    width: 300px;
+    height: 300px;
+  }
+
+
   .content-b .section {
-    width: 375px;
+    width: 300px;
     height: 50px;
     font-size: 4.0vw;
     text-align: center;
     padding-top: 30px;
+    margin-left: 30px;
   }
 
   .content-b .sentence {
@@ -926,20 +1067,20 @@ html {
     text-align: center;
   }
 
-  /******************************/
-  /******************************/
+  /*********top.html****************/
   .box .content-c {
     width: 375px;
     height: 220px;
-    background-color: #E6E5F7;
+    background-color: #FFFFFF;
     margin-top: -30px;
   }
 
   .content-c .text {
-    width: 375px;
-    height: 50px;
-    font-size: 4.0vw;
-    padding-top: 30px;
+    width: 350px;
+    height: 30px;
+    font-size: 5.0vw;
+    padding-top: -30px;
+    margin-left: 20px;
     text-align: center;
   }
 
@@ -950,11 +1091,136 @@ html {
     text-align: center;
   }
 
-  /***************************************************/
+  /*********menu.html*****************/
+  .wrap .box-menu {
+    width: 375px;
+    height: 530px;
+  }
 
 
+  .box-detail .content {
+    width: 375px;
+    height: 500px;
+  }
 
-  /*********************************/
+  .box-menu .content-box {
+    width: 375px;
+    height: 250px;
+    background-color: #ffffff;
+  }
+
+  .content-box .img-box {
+    width: 120px;
+    height: 100px;
+    background-color: #E5D7EE;
+    margin: 50px 10px;
+    float: left;
+    border-radius: 10px;
+  }
+
+  .content-box .img-box img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  .content-box .textbox {
+    width: 230px;
+    height: 200px;
+    float: right;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+
+  .textbox .text {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 4.0vw;
+  }
+
+  .textbox .section {
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    font-size: 3.0vw;
+  }
+
+  /***************menu.html**********************************/
+  .box-menu .content-b {
+    width: 375px;
+    height: 260px;
+    background-color: #ffffff;
+    margin-top: -45px;
+  }
+
+  .content-b .menubox {
+    width: 375px;
+    height: 260px;
+  }
+
+  .menubox .text {
+    width: 100px;
+    height: 30px;
+    font-size: 4.0vw;
+    text-align: center;
+    margin-left: 150px;
+    padding-top: -70px;
+  }
+
+  .menubox .sentence {
+    width: 375px;
+    height: 150px;
+  }
+
+  .menubox .menu {
+    width: 200px;
+    height: 150px;
+    float: left;
+    font-size: 3.0vw;
+    margin-left: 20px;
+    margin-top: -20px;
+  }
+
+  .menubox .price {
+    width: 100px;
+    height: 150px;
+    float: right;
+    font-size: 3.0vw;
+    margin-right: 50px;
+    margin-top: -20px;
+  }
+
+  /******menu.html*********************/
+  .box-menu .content-c-box {
+    width: 375px;
+    height: 150px;
+    background-color: #FFFFFF;
+  }
+
+  .content-c-box .text-boxs {
+    width: 375px;
+    height: 150px;
+  }
+
+  .text-boxs .text {
+    width: 200px;
+    height: 30px;
+    font-size: 4.0vw;
+    text-align: center;
+    margin-top: -30px;
+    border-bottom: 5px solid #E5D7EE;
+    margin-left: 80px;
+  }
+
+  .text-boxs .detail-text {
+    width: 375px;
+    height: 80px;
+    font-size: 3.0vw;
+    text-align: center;
+  }
+
   /***************************************************/
 
   .wrap .footer {
@@ -1019,5 +1285,6 @@ html {
   }
 
   /********************************************/
+
 
 }
